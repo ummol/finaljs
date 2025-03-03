@@ -1,0 +1,24 @@
+body {
+    font-family: monospace, sans-serif;
+    text-align: center;
+    align-items: center;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery img {
+    height: auto;
+    border: 1.5px solid transparent;
+    cursor: pointer;
+    margin: 10px;
+
+}
+.gallery img:focus {
+    border: 2px solid blue;
+}
+/* h1{
+    text-align: center;
+    align-items: center;
+} */
