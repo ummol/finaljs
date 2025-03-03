@@ -1,9 +1,9 @@
 function pageHolder() {
     console.log("Good job");
-    addTabFocus();
+    TabFocus();
 }
 
-function addTabFocus() {
+function TabFocus() {
     let images = document.querySelectorAll('.gallery img');
     images.forEach(img => {
         img.addEventListener('focus', function() {
